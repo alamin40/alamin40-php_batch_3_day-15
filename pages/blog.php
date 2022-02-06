@@ -9,7 +9,9 @@
                     <img src="assets/img/<?php echo $blog['image']; ?>" class="card-img-top"/>
                     <div class="card-body">
                         <h3 class="card-title"><?php echo $blog['title']; ?></h3>
-                        <h4><?php echo $blog['author']; ?></h4>
+                        <p><?php echo $blog['description']; ?></p>
+                        <h6><?php echo $blog['author']; ?></h6>
+
                         <hr/>
                         <a href="" class="btn btn-outline-success">Read More</a>
                     </div>
